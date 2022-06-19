@@ -30,7 +30,7 @@ h1{
     color: #FA7F08;
 }
 
-footer img{
+#whats{
     border-radius: 50%;
     width: 30px;
 }
@@ -43,6 +43,7 @@ footer a {
 }
 footer p{
     margin: 2px;
+    align-items: center;
 }
 .contariner{
     padding: 0px  50px;
