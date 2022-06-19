@@ -1,0 +1,12 @@
+##Comandos##
+
+|| git init  = iniciar um repositorio 
+|| git add   = adiciona arquivos atuais para proximo commit 
+|| git status = verifica status do repositorio 
+|| git commit -m "mensagem" = cria novo commit com uma mensagem
+|| git push = envia atualizações para o github
+|| git branch = mostra as branchs e qual esta sendo usada
+|| git checkout  nome-da-branch = muda para uma nova branch
+|| git checkout  -b "nome da branch origem" "nome da nova branch" = muda e cria uma nova branch baseada em outra
+|| git merge "branch que vai ser adicionada" = fazer merge da branch ativa com outra branch
+|| git pull = atualiza a branch atualmente ativa   
