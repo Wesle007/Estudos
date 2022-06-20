@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+   
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+ul li a{
+    text-decoration: none;
+}
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+    margin: auto;
+    width: 100%;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}   
+header{
+    background-color: rgb(86, 7, 182);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.lista{
+    display: flex;
+    display: flex;
+    max-width: 260px;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+.lista li a{
+    color: white;
+   
+}
+.apresentacao{
+    display: flex;
+    flex-direction: row;
+    height: 550px;
+    justify-content: space-between;
+    align-items: center;
+    color:rgb(86, 7, 182) ;
+}
+
+.apresentacao h1{
+    font-size: 50px;
+    color:rgb(86, 7, 182);
+    margin-bottom: 7px;
+}
+.apresentacao a{
+    background-color:rgb(86, 7, 182);
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    width: 100px;
+    border-radius: 20px;
+    display: block;
+    margin-top: 50px;
+    text-align: center;
+}
+.texto{
+    font-size: 30px;
+    margin-bottom: 7px;
+}
+.paragrafo{
+   font-size: 15px;
+   margin-top: 10px;
+   text-align: justify;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
