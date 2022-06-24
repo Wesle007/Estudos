@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     font-family:Arial, Helvetica, sans-serif;
-   
 }
 
 ul{
@@ -27,6 +26,7 @@ ul li a{
 }  
 header{
     background-color: rgb(86, 7, 182);
+    max-width: 100%;
     height: 100px;
     display: flex;
     align-items: center;
@@ -63,7 +63,7 @@ header{
     color: white;
     text-decoration: none;
     padding: 10px;
-    width: 100px;
+   max-width: 100px;
     border-radius: 20px;
     display: block;
     margin-top: 50px;
@@ -78,7 +78,7 @@ header{
    margin-top: 10px;
    text-align: justify;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
-   width: 85%;
+   max-width: 85%;
 }
 .container-externo{
     height: 400px;
@@ -93,8 +93,6 @@ header{
     justify-content: space-between;
     width: 900px;
     align-self: center;
-    
-    
 }
 #servicos h2{
     font-family:Verdana, Geneva, Tahoma, sans-serif ;
@@ -102,7 +100,6 @@ header{
     margin-top: 10px;
     color: rgb(255, 252, 252);
     margin-left: 10px;
-    
 }
 .lista-servicos div{
     margin-top: 20px;
@@ -112,8 +109,6 @@ header{
     margin-top: 20px;
     height: 50px;
     color: rgb(255, 252, 252);
-    
-   
 }
 .lista-servicos a{
     margin-left: 30px;
@@ -124,15 +119,63 @@ header{
     text-decoration: none;
     border-radius: 15px;
     margin-bottom: 20px;
-    
-
-
 }
 
 .planos{
     display: flex;
     height: 400px;
-    align-items: center;
+    margin-top: 60px;
+    align-items: flex-end;
+    width: 100%;
+    justify-content: space-between;
+}
+.item-plano1,.item-plano2,.item-plano3{
+    border: 3px solid rgb(86, 7, 182);
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    margin-top: 30px;
+}
+.item-plano li{
+    margin-top:10px;
+    text-align: justify;
+    margin-left: 50px;
+    list-style: square;
+    color:rgb(86, 7, 182) ;
+}
+.item-plano{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.item-plano h3{
+    margin-top: 30px;
+
+}
+.linha{
+    width: 200px;
+    background-color: rgb(86, 7, 182);
+    height: 4px;
+    margin-top: 9px;
+    margin-left: 25px;
+   
+}
+.item-plano2{
+    height: 300px;
+}
+.item-plano3{
+    height: 350px;
+}
+.item-plano a{
+    background-color: rgb(86, 7, 182);
+    color: rgb(245, 246, 246);
+    width: 100px;
+   align-self: center;
+   border-radius: 15px;
+   text-decoration: none;
+    padding: 7px;
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
 
 
