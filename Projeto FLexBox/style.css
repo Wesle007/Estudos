@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family:Arial, Helvetica, sans-serif;
 }
 
@@ -27,7 +28,7 @@ ul li a{
 header{
     background-color: rgb(86, 7, 182);
     max-width: 100%;
-    height: 100px;
+    height: 5rem;
     display: flex;
     align-items: center;
     color: white;
@@ -47,45 +48,46 @@ header{
 .apresentacao{
     display: flex;
     flex-direction: row;
-    height: 550px;
+    height: 33rem;
     justify-content: space-between;
     align-items: center;
     color:rgb(86, 7, 182) ;
 }
 
 .apresentacao h1{
-    font-size: 50px;
+    font-size: 3.5rem;
     color:rgb(86, 7, 182);
-    margin-bottom: 7px;
+    margin-bottom: 0.7rem;
 }
 .apresentacao a{
     background-color:rgb(86, 7, 182);
     color: white;
+    width: 100%;
     text-decoration: none;
-    padding: 10px;
-   max-width: 100px;
-    border-radius: 20px;
+    padding: 1rem;
+   max-width: 150px;
+    border-radius: 2rem;
     display: block;
-    margin-top: 50px;
+    margin-top: 5rem;
     text-align: center;
 }
 .texto{
-    font-size: 30px;
+    font-size: 3rem;
     margin-bottom: 7px;
 }
 .paragrafo{
-   font-size: 15px;
-   margin-top: 10px;
+   font-size: 1rem;
+   margin-top: 1rem;
    text-align: justify;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    max-width: 85%;
 }
 .container-externo{
-    height: 400px;
+    height:30rem;
     display: flex;
     flex-direction: column;
     background-color:rgb(86, 7, 182);
-    padding: 30px;
+    padding: 2rem;
 }
 
 .lista-servicos{
@@ -123,18 +125,24 @@ header{
 
 .planos{
     display: flex;
-    height: 400px;
-    margin-top: 60px;
-    align-items: flex-end;
     width: 100%;
-    justify-content: space-between;
+    margin: auto;
+    padding: 0 5rem;
+    height: 20rem;
+    margin-top: 7rem;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-around;
+   
 }
 .item-plano1,.item-plano2,.item-plano3{
     border: 3px solid rgb(86, 7, 182);
-    width: 250px;
-    height: 250px;
+    width: 20rem;
+    height: 15rem;
     text-align: center;
     margin-top: 30px;
+    margin: 0 0.5rem;
+    
 }
 .item-plano li{
     margin-top:10px;
@@ -153,29 +161,36 @@ header{
 
 }
 .linha{
-    width: 200px;
+    width: 15rem;
     background-color: rgb(86, 7, 182);
-    height: 4px;
-    margin-top: 9px;
-    margin-left: 25px;
+    height: 0.4rem;
+    margin-top:0.9rem;
+    margin-left: 2.5rem;
    
 }
 .item-plano2{
-    height: 300px;
+    height: 20rem;
 }
 .item-plano3{
-    height: 350px;
+    height: 25rem;
 }
 .item-plano a{
     background-color: rgb(86, 7, 182);
     color: rgb(245, 246, 246);
-    width: 100px;
+    width: 10rem;
    align-self: center;
    border-radius: 15px;
    text-decoration: none;
-    padding: 7px;
-    margin-top: 5px;
-    margin-bottom: 10px;
+    padding: 0.7rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
 }
-
+.rodape{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    background-color:rgb(86, 7, 182) ;
+    justify-content: space-between;
+    margin-top: 10px;
+}
 
