@@ -22,8 +22,10 @@ ul li a{
 }
 .menu{
     display: flex;
-    align-items: center;
+    width: 100%;
     justify-content: space-between;
+    align-items: center;
+    padding: 0 10px; 
 }  
 header{
     background-color: rgb(86, 7, 182);
@@ -35,7 +37,6 @@ header{
 }
 .lista{
     display: flex;
-    display: flex;
     max-width: 260px;
     width: 100%;
     justify-content: space-between;
@@ -45,13 +46,22 @@ header{
     color: white;
    
 }
+
 .apresentacao{
     display: flex;
-    flex-direction: row;
-    height: 33rem;
-    justify-content: space-between;
+    margin: 60px auto;
+    justify-content:space-around;
+    max-width: 70%;
     align-items: center;
     color:rgb(86, 7, 182) ;
+    flex-wrap: wrap;
+}
+
+img{
+    max-width: 60%;
+}
+.hav{
+    width: 40%;
 }
 
 .apresentacao h1{
@@ -193,4 +203,22 @@ header{
     justify-content: space-between;
     margin-top: 10px;
 }
-
+@media (max-width:884px) {
+    img{
+        max-width: 50%;
+    }
+    .hav{
+        width: 50%;
+    }
+    .apresentacao h1{
+        font-size: 2.5rem;
+    }
+    .apresentacao a{
+        padding: 1rem;
+       max-width: 100px;
+        border-radius: 2rem;
+        display: block;
+        margin-top: 4rem;
+        
+    }
+}
