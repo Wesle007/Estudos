@@ -26,6 +26,7 @@ ul li a{
     justify-content: space-between;
     align-items: center;
     padding: 0 10px; 
+    flex-wrap: wrap;
 }  
 header{
     background-color: rgb(86, 7, 182);
@@ -54,7 +55,6 @@ header{
     max-width: 70%;
     align-items: center;
     color:rgb(86, 7, 182) ;
-    flex-wrap: wrap;
 }
 
 img{
@@ -81,7 +81,7 @@ img{
     margin-top: 5rem;
     text-align: center;
 }
-.texto{
+.subtitulo{
     font-size: 3rem;
     margin-bottom: 7px;
 }
@@ -98,16 +98,16 @@ img{
     width: 100%;
     flex-direction: column;
     background-color:rgb(86, 7, 182);
-    padding: 2rem;
+   
 }
 
 .lista-servicos{
     display: flex;
     justify-content: space-around;
     width: 100%;
-
+    padding: 2rem;
 }
-.flex-container h2{
+.container-externo h2{
     font-family:Verdana, Geneva, Tahoma, sans-serif ;
     font-size: 25px;
     margin-top: 10px;
@@ -208,22 +208,56 @@ img{
     justify-content: space-between;
     margin-top: 10px;
 }
-@media (max-width:884px) {
-    img{
-        max-width: 50%;
+@media (max-width:990px) {
+    .flex-container{
+        flex-direction: column;
+        max-width: 100%;
     }
-    .hav{
-        width: 50%;
+    .apresentacao{
+       flex-direction: column-reverse;
+      
+        
     }
     .apresentacao h1{
         font-size: 2.5rem;
+       
     }
     .apresentacao a{
-        padding: 1rem;
-       max-width: 100px;
-        border-radius: 2rem;
-        display: block;
-        margin-top: 4rem;
-        
+        font-size: 13px;
+        padding: 0.5rem;
+
     }
+    img{
+        max-width: 100%;
+    }
+    .hav{
+        width: 100%;
+        margin: 0 5px;
+    }
+    .paragrafo{
+        font-size:0.9rem ;
+        width: 100%;
+    }
+    .container-externo{
+        height: auto;
+        padding: 5px;
+    }
+    .lista-servicos{
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        padding: 2rem;
+    }
+    .servico img{
+        width: 100px;
+        height: 100px;
+    }
+    .planos{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5px;
+    }
+
 }
